@@ -1,0 +1,76 @@
+body
+{
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url('https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fchriscancialosi%2Ffiles%2F2014%2F12%2Fshutterstock_187187867-1940x1940.jpg');
+    background-size: cover;
+}
+.testbox{
+    display: block;
+    background-color: white;
+    opacity: 0.9;
+    height: 650px;
+    width: 700px;
+    margin: 0 auto; 
+}
+.login{
+    display: block;
+    background-color: white;
+    opacity: 0.9;
+    height: 300px;
+    width: 350px;
+    margin: 0 auto;
+}
+.align,.form{
+    text-align: center;
+}
+input{
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+#university{
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+#signuphead{
+    border-top: 10px;
+    text-align: center;
+    font-style: comicsanms;
+    background-color: #4CAF50;
+    border-bottom: 10px;
+    color: white;
+}
+i{
+    font-size: 25px;
+}
+#button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.fp{
+    font-size: 10px;
+    text-align: right;
+    padding-right: 25px;
+}
+.loginbtn > button{
+    background-color: #008CBA;
+    border:none;
+    color:white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; 
+}
+.loginh > #loginhead{
+    border-top: 10px;
+    text-align: center;
+    font-style: comicsanms;
+    background-color: #008CBA;
+    border-bottom: 10px;
+    color: white;
+}

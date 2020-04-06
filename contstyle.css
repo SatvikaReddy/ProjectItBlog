@@ -1,0 +1,66 @@
+.container{
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr ;
+    background-color: #f2f3f4;
+    
+}
+.topbox{
+	background-color: black;
+	background-image: url(contact.jpg);
+	padding: 0;
+	margin: 0 0;
+	border: 0px;
+	background-size: 100% 100%;
+	opacity: 0.7;
+
+}
+.col1{
+	float: left;
+}
+.col2{
+	float: right;
+    margin-left:600px;
+    position: absolute;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+.fa-facebook{
+	background: #3b5998;
+	color: white;
+}
+.fa-twitter{
+	background: #55acee;
+	color: white;
+}
+.fa-google-plus{
+	background: red;
+	color: white;
+}
+.fa-instagram{
+	background: #dd2a7b;
+	color: white;
+}
+input,textarea{
+	margin-left: 5px;
+	padding-left: 5px;
+}
+button{
+	text-align: center; 
+	font-size: 15px;
+	background-color: #3fe0d0;
+	border:0px;
+	width:100px;
+	height: 30px;
+	color: white;
+	font-weight: bold;
+
+}

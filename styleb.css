@@ -1,0 +1,22 @@
+body{
+    background-image: url(blu.jpg.jpg);
+    
+    background-size: cover;
+}
+.container{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px; 
+    background-color: #f3f3f3;
+    opacity: 0.8;
+}

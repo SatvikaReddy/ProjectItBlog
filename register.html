@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog-Registration</title>
+    <script src="https://kit.fontawesome.com/2db298c112.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type='text/javascript'>
+alert('Make sure you enter a unique Email and Username.... ');
+</script>
+</head>
+<body>
+        <img src="fin.png" style="height: 100px;width: 150px;margin-left: 30px">
+    <div class="testbox">
+        <form method="POST" action="script.php"> 
+            <h1 id="signuphead">Sign up</h1>
+            <div class='align'>
+                <i class="fas fa-user"></i>
+                <input type="text" name="username" placeholder="First Name" required>
+                <br><br>
+            </div>
+            <div class="align">
+                <i class="fas fa-calendar-alt"></i>
+                <input type="Date" name="date1" id="date" placeholder="Date of Birth"required>
+                <br><br>
+            </div>
+            <div class="align">
+                <i class="fas fa-transgender-alt"></i>
+                <input type="radio" value="M" id="male" name="gender" checked/>
+                <label for="male" class="radio" >Male</label>
+                <input type="radio" value="F" id="female" name="gender" />
+                <label for="female" class="radio">Female</label>
+                <input type="radio" value="O" id="others" name="gender" />
+                <label for="others" class="radio">Others</label>
+            </div>
+            <br><br>
+            <div class="align">
+                <i class="fas fa-university"></i>
+                <select name="college" id="university">
+                    <option value='cbit'>CBIT</option>
+                    <option value='mgit'>MGIT</option>
+                    <option value='vasavi'>VASAVI</option>
+                    <option value='others'>Other</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="align">
+                <i class="fas fa-envelope"></i><input type="text" name="email" placeholder="Email" required/>
+                <br><br>
+                <i class="fas fa-phone-alt"></i><input type="text" name="phno" placeholder="Phone number" required>
+                <br><br>
+                <i class="fas fa-lock"></i><input type="password" name="pwd" placeholder="Password" required/>
+                <br><br>
+                <i class="fas fa-lock"></i><input type="password" name="pwd2" placeholder="Confirm Password" required/>
+                <br><br>
+                <input type="checkbox" name="check" required>I agree to the <b>Terms of policy</b> and <b>Privacy terms.</b> 
+                <br><br>
+                <button id='button' type="submit" name="reg_user">Sign up</button>
+                <p id="login">Already have an account?<a href="login.html">Login here</a></p>
+            </div>      
+        </form>
+
+    </div>
+</body>
+</html>

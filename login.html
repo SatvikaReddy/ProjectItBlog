@@ -1,0 +1,30 @@
+<?php include('script.php') ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog-Signin</title>
+        <script src="https://kit.fontawesome.com/2db298c112.js" crossorigin="anonymous"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+        <img src="fin.png" style="height: 100px;width: 150px;margin-left: 30px">
+	<form class="login" method="POST" action="script2.php">
+		<div class="loginh">
+			<h1 id="loginhead">Login</h1>
+		</div>
+		<div class="form">
+                <i class="fas fa-envelope"></i><input type="text" id="email" placeholder="Email" required/>
+                <br><br>
+                <i class="fas fa-lock"></i><input type="password" id="pwd" placeholder="Password" required/>
+                <br>
+                <br><br>
+                <br>
+                <div class="loginbtn">
+                	<button type="submit" name="Login">Login</button>
+            	</div>
+                <p>Don't have an account?<a href="register.html">Sign up here.</a></p>
+        </div>
+	</form>
+</body>
+</html>

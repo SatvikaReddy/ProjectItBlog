@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url('https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fchriscancialosi%2Ffiles%2F2014%2F12%2Fshutterstock_187187867-1940x1940.jpg');
+                background-size: cover;   
+            }
+            #main
+            {
+                text-align: center;
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                transform : translate(-50%,-50%);
+                font-size: 60px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            }
+            #main2
+            {
+                display:block;
+                font-size: 35px;
+                animation: pop 0.6s ease-in-out ;
+                font-family: 'Courier New', Courier, monospace ;
+            }
+            @keyframes pop{
+                40%{
+                    transform:scale(1.5);
+                }
+            }
+            </style>
+        <title>ProjectItBlog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>  
+        <header>
+            <div class="row1">
+                <center><img src="fin.png" alt="Logo" style="width:150px;height:100px;"></center>
+            </div>
+            <div class="row">
+                <ul class="mainrow">
+                    <li> <a href="home.html">HOME PAGE</a></li>
+                    <li> <a href="contact.html"> CONTACT US</a></li>                     
+                </ul>
+            </div>
+        </header>
+        <span id="main"> WELCOME TO<span id="main2">ProjectItBlog </span> 
+        <div class="button">
+            <a href="register.html" class="b1">Register</a>
+            <a href="login.html" class="b1">Login</a>
+        </div>
+        </span>
+    </body>
+</html>
